@@ -1,0 +1,154 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	text-align: center;
+	float:center;
+	height: 129px;
+	border-bottom: 2px solid #000;
+	margin: 10px 35px 15px 35px;
+	
+}
+
+header img {
+	width: 248px;
+	height: 88px;
+}
+
+nav {
+
+}
+
+ul li {
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+}
+
+.shopNowLink {
+	float:right;
+}
+
+.hero {
+	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+}
+
+
+.slider {
+	height: 430px;
+}
+
+
+h1 {
+	font-size: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left:5%;
+	padding-top: 6%;
+	font-family: 'Sacramento', cursive;
+}
+
+h2 {
+	font-size: 50px;
+	margin-top: 0px;
+	padding-left:8%;
+	margin-bottom: 0px;
+	
+}
+
+.hero p {
+	font-size: 23px;
+	padding-left:5%;
+	padding-right: 53%;
+	padding-top: 2%;
+	text-align: center;
+	margin-top: 0px;
+}
+
+footer {
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	padding-top:3%;
+
+}
+
+.sign-up {
+	clear: both;
+}
+
+#bottomSiteLinks {
+	display: inline-block;
+	text-align: center;
+}
+
+#bottomSiteLinks a{
+	color: #fff;
+}
+
+
+.socialMediaLinks{
+	clear: both;
+}
+
+/*sign up for an account page */
+.accountSignUp {
+	text-align: center;
+	height:450px;
+	font-size: 20px;
+	padding: 50px;
+	width: 500px;
+	margin: 0 auto;
+
+
+}
+
+.createAnAccountTitle {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 16px;
+   	font-size: 20px;
+   	font-family: 'Raleway', sans-serif;
+
+
+}
+
+#accountSubmit {
+    background-color: #00b3b3;
+    color: white;
+    padding: 12px 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=checkbox] {
+	padding: 10px; 
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+/*end of account sign up page*/
+
+@media query
+
+
+
