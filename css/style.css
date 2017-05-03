@@ -41,7 +41,7 @@ li a:hover {
 }
 
 .hero {
-	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
+	background-image: url("../images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100%;
@@ -314,7 +314,7 @@ padding-left: 0px;
 @media screen and (max-width: 786px) {
 
 .hero {
-	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
+	background-image: url("../images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% auto;
@@ -370,7 +370,7 @@ display: inline-block;
 
 @media screen and (max-width: 375px) {
 .hero {
-	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
+	background-image: url("../images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% auto;
