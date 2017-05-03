@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="description" content="Kiyonna Clothing's virtual stylist will help customers find an outfit for any occasion."
 		<meta name="keywords" content="plus size clothing, plus size dresses, plus size special occasion dresses, plus size cocktail dresses">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!--<link rel="stylesheet" href="css/reset.css">-->
 		<link rel="stylesheet" href="css/style.css">
@@ -14,15 +15,22 @@
 
 	<body>
 		<header>
+			<!-- <div class="container"> -->
 			<img src="http://www.kiyonna.com/images/Kiyonna-Plus-Size-Clothing-logo-1-021717.jpg" alt="Kiyonna Plus Size Clothing Logo">
-				<nav>
-					<ul>
-						<li>ABOUT US</li>
-						<li>FIND YOUR OUTFIT</li>	
-						<li>BLOG</li>
-						<li class="shopNowLink">SHOP</li>		
-					</ul>	
-				</nav>	
+				<div class="nav-menu">
+					<nav>
+						<ul>
+							<li>
+	              			<div class="line"></div>
+	              			<div class="line"></div>
+	              			<div class="line"></div>
+	            			</li>
+							<li><a href="index.html">FIND YOUR OUTFIT</a></li>	
+							<li class="shopNowLink"><a href="http://www.kiyonna.com/">SHOP</a></li>		
+						</ul>	
+					</nav>
+				</div>	
+			<!-- </div> -->
 		</header>
 
 		<section class="hero">
@@ -31,12 +39,63 @@
 			<p>Answer the questions below and we'll help you find the perfect look for your upcomming event.</p>
 		</section>
 
-		<!--slider area-->
-	 	<div class="container">
-	 		<div id="questions"></div>
-			<button id="styleOptions"></button>
-		</div>
 
+
+<div class="slideshow-container">
+  <div onclick="plusSlides(1)" class="mySlides fade">
+    <div class="q1">What's the dress code?</div>
+    <div class="optionsToPickFrom">
+    	<ul class="q1-Options">
+	    	<li onclick="getDressCode(event)" class="pickOptions">formal</li>
+	    	<li onclick="getDressCode(event)" class="pickOptions">dressy casual</li>
+	    	<li onclick="getDressCode(event)" class="pickOptions">casual</li>
+		</ul>
+		</div>
+  </div>
+
+  <div onclick="plusSlides(1)" class="mySlides fade">
+   <div class="q1">What's your body type?</div>
+    <div class="optionsToPickFrom">
+    	<ul class="q1-Options">
+	    	<li onclick="getBody(event)" class="pickOptions">hourglass</li>
+	    	<li onclick="getBody(event)" class="pickOptions">apple</li>
+	    	<li onclick="getBody(event)" class="pickOptions">rectangle</li>
+		</ul>
+		</div>
+  </div>
+
+  <div onclick="plusSlides(1)" class="mySlides fade">
+    <div class="q1">Pick a Price Range</div>
+    	<div class="optionsToPickFrom">
+	    	<ul class="q1-Options">
+		    	<li onclick="getPrice(event)" class="pickOptions">$50 to $100</li>
+		    	<li onclick="getPrice(event)" class="pickOptions">$101 and Up </li>
+			</ul>
+		</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="resultSlide">Our pick for you based on your answers...</div>
+    	<div class="Results">
+	    	<ul class="q1-Options">
+		    	<li class="resultOption1"></li>
+		    	<li class="resultOption2"></li>
+		    	<li class="resultOption3"></li>
+			</ul>
+		</div>
+	<div class="imgResults" alt="Stylist Picks"></div>
+  </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)">1</span> 
+  <span class="dot" onclick="currentSlide(2)">2</span> 
+  <span class="dot" onclick="currentSlide(3)">3</span>
+  <!--figure out how to hide slide 4-->
+  <span class="dot" onclick="currentSlide(4)">4</span> 
+</div>
 
 		<footer>
 
@@ -60,10 +119,8 @@
 		<section class="socialMediaLinks">
 			<a href="https://www.facebook.com/plus.size.kiyonna.clothing/?ref=ts">
 				<img scr="" alt="Follow us on Facebook"></a>
-			<a href="https://twitter.com/Kiyonna">
-				<img scr="" alt="Send us a Tweet on Twitter"></a>
 			<a href="https://www.pinterest.com/kiyonnaplussize/">
-				<img scr="" alt="Pinterest"></a>
+				<img scr="images/pinterest.jpg" alt="Pinterest"></a>
 			<a href="https://www.instagram.com/kiyonnacurves/">
 				<img scr="" alt="Tag us on Instagram"></a>
 		</section>
@@ -73,7 +130,10 @@
 		</footer>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script type='text/javascript' src='script.js'></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type='text/javascript' src='js/script.js'></script>
 	</body>
 
 </html>

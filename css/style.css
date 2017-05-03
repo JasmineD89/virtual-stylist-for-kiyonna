@@ -8,6 +8,7 @@ header {
 	height: 129px;
 	border-bottom: 2px solid #000;
 	margin: 10px 35px 15px 35px;
+
 	
 }
 
@@ -16,14 +17,23 @@ header img {
 	height: 88px;
 }
 
-nav {
 
-}
+
 
 ul li {
 	display: inline-block;
 	float: left;
 	padding-right: 10px;
+	color: #000;
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+}
+
+li a:hover {
+	color: #717171;
 }
 
 .shopNowLink {
@@ -34,7 +44,7 @@ ul li {
 	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 400px;
+	height: 100%;
 	width: 100%;
 }
 
@@ -44,7 +54,7 @@ ul li {
 }
 
 
-h1 {
+.hero h1 {
 	font-size: 80px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -53,8 +63,10 @@ h1 {
 	font-family: 'Sacramento', cursive;
 }
 
-h2 {
-	font-size: 50px;
+
+
+.hero h2 {
+	font-size: 40px;
 	margin-top: 0px;
 	padding-left:8%;
 	margin-bottom: 0px;
@@ -76,10 +88,333 @@ footer {
 	color: #fff;
 	padding-top:3%;
 
+
 }
 
 .sign-up {
 	clear: both;
+}
+
+#bottomSiteLinks{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#bottomSiteLinks li {
+	color: #fff;
+}
+
+
+
+.socialMediaLinks{
+	clear: both;
+}
+
+input[type="email"] {
+	width:;
+}
+
+input[type="submit"] {
+	width:;
+}
+/*slider start*/
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: auto;
+  padding-top: 40px;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+.q1 {
+  color: #000;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 30px;
+}
+
+.resultSlide {
+  color: #000;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 30px;
+}
+
+.optionsToPickFrom, .Results{
+	width:100%;
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+.imgResults {
+	display: block;
+	background-size: contain;
+	width: 304px;
+	height: 504px;
+	float: center;
+}
+
+.q1-Options{
+display: inline-block;
+padding-left: 0px;
+
+}
+
+.pickOptions{
+	background-color: #000;
+	color: #fff;
+	margin: 40px;
+	padding:20px;
+	display: inline-block;
+
+}
+
+.pickOptions:hover{
+	background-color: #00b3b3;
+
+}
+
+
+
+.resultOption1, .resultOption2, .resultOption3 {
+	background-color: #00b3b3;
+	color: #fff;
+	margin: 40px;
+	padding:20px;
+	display: inline-block;
+
+
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 10px;
+  background-color: #fff;
+  border: solid 1px #000;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+/*images*/
+
+
+/*Casual*/
+
+.casualApple50 {
+  background-image: url('../imagesForProject/casual/apple/50Price/cayceeBlue.jpg')
+}
+.casualApple100{
+  background-image: url('../imagesForProject/casual/apple/101Price/wrappedInRoBlu.jpg')
+}
+.casualRect50 {
+  background-image: url('../imagesForProject/casual/rectangle/50Price/promenadeTye.jpg')
+}
+.casualRect100 {
+  background-image: url('../imagesForProject/casual/rectangle/101Price/morracanChv.jpg')
+}
+.casualHour50 {
+  background-image: url('../imagesForProject/casual/hourglass/50Price/ciaraTile.jpg')
+}
+.casualHour100 {
+  background-image: url('../imagesForProject/casual/hourglass/101Price/belfastBlk.jpg')
+}
+
+
+/*dressy casual*/
+.dressyApple50 {
+  background-image: url('../imagesForProject/dressyCasual/apple/50Price/lustrousGrn.jpg')
+}
+.dressyApple100{
+  background-image: url('../imagesForProject/dressyCasual/apple/101Price/chloeBlu.jpg')
+}
+.dressyRect50 {
+  background-image: url('../imagesForProject/dressyCasual/rectangle/50Price/hopeTel.jpg')
+}
+.dressyRect100 {
+  background-image: url('../imagesForProject/dressyCasual/rectangle/101Price/drapedTye.jpg')
+}
+.dressyHour50 {
+  background-image: url('../imagesForProject/dressyCasual/hourglass/50Price/femmeLav.jpg')
+}
+.dressyHour100 {
+  background-image: url('../imagesForProject/dressyCasual/hourglass/101Price/flirtyBluFlor.jpg')
+}
+
+
+/*formal*/
+.formalApple50 {
+  background-image: url('../imagesForProject/formal/apple/50Price/lindenTel.jpg')
+}
+.formalApple100{
+  background-image: url('../imagesForProject/formal/apple/101Price/mademoiselleRos.jpg')
+}
+.formalHour50 {
+  background-image: url('../imagesForProject/formal/rectangle/50Price/lorenblk.jpg')
+}
+.formalHour100 {
+  background-image: url('../imagesForProject/formal/rectangle/101Price/astoriaplm.jpg')
+}
+.formalRect50 {
+  background-image: url('../imagesForProject/formal/hourglass/50Price/inTheMixBlk.jpg')
+}
+.formalRect100 {
+  background-image: url('../imagesForProject/formal/hourglass/101Price/ornateBlu.jpg')
+}
+
+
+@media screen and (max-width: 786px) {
+
+.hero {
+	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	
+}
+header {
+	max-height: 70px;
+}
+
+header img {
+	clear: both;
+	width: 150px;
+	height: auto;
+}
+
+nav ul {
+height:0em;
+transition:1s all;
+}
+
+nav ul.open{
+height:20em;
+}
+
+nav ul, nav li, .shopNowLink{
+    float:none;
+    display: block;
+    text-align: center;
+    clear: none;
+    padding: 10px;
+  }
+
+nav li:first-child {
+position:absolute;
+top:0;
+left:0;
+padding: 5px;
+display: inline-block;
+
+}
+
+.line {
+  width:2em;
+  height:3px;
+  background:black;
+  margin: .25em;
+  color:white;
+}
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+.hero {
+	background-image: url("file:///Users/jasmine/Desktop/virtual-stylist-for-kiyonna/images/plus-size-dresses-for-special-occasions-img3-vs-042017.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	
+}
+
+.hero h1 {
+font-size: 30px;
+}
+
+.hero h2 {
+font-size: 15px;
+}
+
+.hero p {
+font-size: 12px;
+}
+
+.q1, .resultSlide {
+font-size: 25px;
+padding-top: 0px;
+margin-top: 5px;
+}
+
+.pickOptions{
+	text-align: center;
+	clear: both;
+	margin: 5px;
+}
+
+.resultOption1, .resultOption2, .resultOption3 {
+	background-color: #00b3b3;
+	color: #fff;
+	margin: 5px;
+	padding:10px;
+	display: block;
+	font-size: 15px;
+
+}
+.socialMediaLinks li{
+	clear: both;
+	display: block;
+	margin: 5px;
+	font-size: 10px
 }
 
 #bottomSiteLinks {
@@ -87,68 +422,14 @@ footer {
 	text-align: center;
 }
 
-#bottomSiteLinks a{
+#bottomSiteLinks li{
 	color: #fff;
-}
-
-
-.socialMediaLinks{
-	clear: both;
-}
-
-/*sign up for an account page */
-.accountSignUp {
-	text-align: center;
-	height:450px;
 	font-size: 20px;
-	padding: 50px;
-	width: 500px;
-	margin: 0 auto;
-
-
-}
-
-.createAnAccountTitle {
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 10px;
-}
-
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 10px; 
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 0px;
-    margin-bottom: 16px;
-   	font-size: 20px;
-   	font-family: 'Raleway', sans-serif;
-
+	display: block;
+	clear: both;
+	margin: 5px;
 
 }
 
-#accountSubmit {
-    background-color: #00b3b3;
-    color: white;
-    padding: 12px 50px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+
 }
-
-input[type=checkbox] {
-	padding: 10px; 
-    border-radius: 4px;
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-/*end of account sign up page*/
-
-@media query
-
-
-
